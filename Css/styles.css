@@ -1,0 +1,135 @@
+
+body{
+    font-family: 'Source Code Pro', monospace;
+
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+/* IMAGEN TITULO */
+
+.contenedor-titulo-imagen{
+    background-image: url(/Assets/Images/fondotitle.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-titulo-imagen--elementos{
+    background-color: #21252988;
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.contenedor-titulo-imagen--elementos:hover{
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+}
+
+/* Contenido */
+
+.contenido{
+    margin-top: 10px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Marco de las imagenes del equipo */
+.marco-equipo{
+    padding: 10px;
+    background-color:#32383f;
+    border-radius: 10px;
+    color: white;
+}
+.marco-equipo h1{
+    font-size: 35px;
+}
+.marco-equipo img{
+    max-height: 250px;
+    border-radius: 10px;
+}
+.marco-equipo:hover{
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.301);
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color:#42484e;
+    
+}
+
+/* planes cards */
+
+.planes-card:hover{
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.301);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer-redes{
+    padding: 20px;
+    background-color: #212529;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0;
+}
+.titulo-footer{
+    text-align: center;
+    font-size: 25px;
+    color: lightgray;
+}
+.xsm{
+    justify-content: center;
+    display: flex;
+}
+
+/* Ajustes generales */
+.justificado-blanco{
+    text-align: justify;
+    color: white;
+}
+.justificado-negro{
+    text-align: justify;
+    color: black;
+}
+.alineadocentral{
+    text-align: center;
+}
+.centrardivs{
+    display: flex;
+    justify-content: center;
+}
+.invalid{
+    color: red;
+    font-size: 15px;
+}
+.text-decoration-line{
+    text-decoration: underline;
+}
+
+/* escondida */
+.hidden{
+    visibility: hidden;
+}
+
+/* borde a div */
+.bordediv{
+    padding: 10px;
+    border: #212529 1px solid;
+}
