@@ -133,3 +133,15 @@ h2{
     padding: 10px;
     border: #212529 1px solid;
 }
+
+/* hover animation */.hover:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* borderhover para las caracteristicas */
+.borderhover:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    border: solid 2px black;
+}
